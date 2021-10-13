@@ -1,0 +1,49 @@
+
+.hero{
+    height: 100vh;
+    background-image: url('../img/banner_inicio2.jpg');
+    background-size: cover;
+}
+.login{
+    background-color: rgba(250, 255, 255, 0.8); 
+    border: solid 1px #1e294b;
+    padding: 4rem 8rem 4rem 8rem;
+}
+.login h2{
+    color: #1e294b;
+}
+.login p{
+    font-weight: 600;
+}
+.form-control:focus{
+    border-color: #53b5be;
+    box-shadow: 0 0 0 .25rem rgba(83,181,190, 0.25);
+}
+.btn-outline-dark:hover{
+    background-color: #1e294b;
+}
+.oculto{
+    display: none;
+}
+div.dataTables_wrapper div.dataTables_filter{
+    text-align: right!important;
+}
+div.dataTables_wrapper div.dataTables_filter label{
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+    
+}
+label{
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+div.dataTables_wrapper div.dataTables_filter input{
+    margin-left: 0.5em;
+    display: inline-block;
+    width: auto;
+}
+div.dataTables_wrapper div.dataTables_length select{
+    width: auto;
+    display: inline-block;
+}

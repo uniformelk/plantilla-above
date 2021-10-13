@@ -1,0 +1,1 @@
+2021-08-30 17:42:17 ---> Error de conexion: ( 2002) Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder

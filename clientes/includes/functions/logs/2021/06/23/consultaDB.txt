@@ -1,0 +1,18 @@
+2021-06-23 00:02:00 ---> Error en el query: ( You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '".$tabla." WHERE modalidad = "
+                                Presencial    ...' at line 1 ) SELECT sede, COUNT(*) AS total FROM ".$tabla." WHERE modalidad = "
+                                Presencial                            " GROUP BY sede ORDER BY sede;
+2021-06-23 00:03:19 ---> Error en el query: ( You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"registros" WHERE modalidad = "
+                                Presencial   ...' at line 1 ) SELECT sede, COUNT(*) AS total FROM "registros" WHERE modalidad = "
+                                Presencial                            " GROUP BY sede ORDER BY sede;
+2021-06-23 14:55:19 ---> Error en el query: ( You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"registros" WHERE modalidad = "
+                                Presencial   ...' at line 1 ) SELECT sede, COUNT(*) AS total FROM "registros" WHERE modalidad = "
+                                Presencial                            " GROUP BY sede ORDER BY sede;
+2021-06-23 19:02:05 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros_sc GROUP BY sede ORDER BY sede;
+2021-06-23 19:16:58 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros_sc GROUP BY sede ORDER BY sede;
+2021-06-23 19:18:50 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros_sc GROUP BY sede ORDER BY sede;
+2021-06-23 19:20:33 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros_sc GROUP BY sede ORDER BY sede;
+2021-06-23 21:36:32 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros_sc GROUP BY sede ORDER BY total DESC LIMIT 10;
+2021-06-23 21:50:09 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros GROUP BY sede ORDER BY total DESC LIMIT 10;
+2021-06-23 21:51:34 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros GROUP BY sede ORDER BY total DESC LIMIT 10;
+2021-06-23 21:51:53 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros GROUP BY sede ORDER BY total DESC LIMIT 10;
+2021-06-23 21:55:20 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros GROUP BY sede ORDER BY total DESC LIMIT 10;

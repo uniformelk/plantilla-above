@@ -1,0 +1,1 @@
+2021-01-04 23:56:21 ---> Error en el query: ( You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@devsgo.co' at line 1 )  SELECT COUNT(*) AS total FROM usuarios WHERE usuario = tecnologia@devsgo.co

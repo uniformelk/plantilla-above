@@ -1,0 +1,1 @@
+2021-09-30 22:02:42 ---> Error de conexion: ( 1045) Access denied for user 'root'@'localhost' (using password: NO)

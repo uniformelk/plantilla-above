@@ -1,0 +1,1 @@
+2021-01-22 18:09:36 ---> Error en el query: ( Table 'devsgo.tarea' doesn't exist ) UPDATE tarea SET estado = 1 WHERE id_proyecto = 13 AND tarea = 'Entrega contenidos: el cliente debe subministrar contenidos para dicha landing tales como imágenes, logos, colores corporativos, textos.' 

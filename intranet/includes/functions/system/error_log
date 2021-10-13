@@ -1,0 +1,2 @@
+[30-Sep-2021 22:02:42 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u890646885/domains/devsgo.com.co/public_html/intranet/includes/functions/system/conexion.php on line 33
+[01-Oct-2021 21:11:39 UTC] PHP Notice:  Undefined index: perfil in /home/u890646885/domains/devsgo.com.co/public_html/intranet/includes/functions/system/session.php on line 24

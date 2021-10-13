@@ -1,0 +1,6 @@
+2021-07-14 17:26:04 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros_v GROUP BY sede ORDER BY total DESC LIMIT 10;
+2021-07-14 17:31:51 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros_v GROUP BY sede ORDER BY total DESC LIMIT 10;
+2021-07-14 17:33:54 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros_v GROUP BY sede ORDER BY total DESC LIMIT 10;
+2021-07-14 17:35:22 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros_v GROUP BY sede ORDER BY total DESC LIMIT 10;
+2021-07-14 17:36:30 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros_v GROUP BY sede ORDER BY total DESC LIMIT 10;
+2021-07-14 17:37:09 ---> Error en el query: ( Unknown column 'sede' in 'field list' ) SELECT sede, COUNT(*) AS total FROM registros_v GROUP BY sede ORDER BY total DESC LIMIT 10;
