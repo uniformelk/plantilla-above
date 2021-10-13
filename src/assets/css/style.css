@@ -1,0 +1,132 @@
+/*#nav{
+    position: relative;
+    z-index: 2;
+    
+}
+#nav nav{
+    background-color: transparent;
+    
+}
+#nav nav .nav-wrapper{
+    padding: 0 1rem;
+    
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@100&family=Yanone+Kaffeesatz&display=swap');
+:root{
+    --font-primary: 'Yanone Kaffeesatz', sans-serif;;
+    --font-secundary: 'Raleway', sans-serif;
+    --color-primario: #ef664d;
+    --color-secundario: #2a404e;
+}
+*{
+    font-family: var(--font-secundary);
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-primary);
+    letter-spacing: 2pt;
+    text-transform: capitalize;
+    color: #ef664d;
+}
+.text-primario{
+    color: #080808;
+    font-weight: bolder;
+}
+.rounded{
+    border-radius: 50%!important;
+    border: 2px solid #ef664d;
+}
+.bg-secundario{
+    background-color: var(--color-secundario);
+}
+.hero{
+    background-image: url('../img/hero.jpg');
+    height: 70vh;
+    background-position: bottom center;
+    background-size: cover;
+    margin-top: -110px;
+    z-index: 1;
+}
+.nav-link{
+    color: #fefefe!important;
+    font-weight: 700;
+}
+.nav-scrolled{
+    background-color: var(--color-secundario);
+}
+
+.router-link-exact-active {
+    color: var(--color-primario)!important;
+    border-bottom: 2px solid #ef664d;
+    border-radius: 2px;
+  }
+  .text-header {
+      height: 100%;
+      width: 75%;
+      margin: auto;
+      padding: 30vh 0;
+      text-align: center;
+  }
+  .text-secundary{
+      color: var(--color-primario);
+      font-weight: 700;
+      
+  }
+  .text-terciary{
+      color: var(--color-secundario);
+      font-weight: 500;
+  }
+  .progress-bar{
+      background-color: var(--color-primario);
+  }
+  
+  /*Works*/
+  .hero-works{
+    background-image: url('../img/hero-works.png');
+    padding: 5rem;
+    background-position: center;
+    background-size: cover;
+}
+.nav-pills .nav-link.active{
+    background-color: transparent;
+    border-bottom: 1px solid #ef664d;
+    border-radius: 0;
+    color: var(--color-primario)!important;
+}
+#pills-tabContent{
+    background-image: url('../img/left.png');
+    background-size: 100% 100%;
+    padding: 20px;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url('../img/nav.png')!important;
+}
+/*Sevices*/
+.card{
+    border: none;
+}
+.img-min{
+    width: 35%;
+    margin: auto;
+}
+
+/*Contact*/
+.input-group-prepend{
+    width: 30%;
+}
+.btn-primario{
+    background-color: var(--color-primario);
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+}
+.input-transparent{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ef664d;
+    color: #fff;
+}
+.input-transparent:focus{
+    background-color: transparent;
+    box-shadow: 0 0 0 0.2rem rgb(239 102 77 / 25%);
+}
